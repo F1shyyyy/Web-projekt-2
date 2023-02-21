@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+#obal{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    max-width: 1920px;
+}
+header{
+    background-color: #2F4F4F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav h1{
+    color: white;
+    font-size: 40px;
+    margin: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#podstranky a{
+    margin: 15px 40px 15px 15px;
+    font-size: 25px;
+}
+footer{
+    background-color: #2F4F4F;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+footer p{
+    color: white;
+}
+#main{
+    min-height: 100vh;
+    background-color: #f7f8f9;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+#foot1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    padding-top: 15px;
+    border-top: 1px solid white;
+    width: 50vw;
+}
+#foot1 img{
+    width: 20px;
+    height: 20px;
+}
+#foot2 a:hover{
+    text-decoration: underline;
+}
+#foot2 li a{
+    padding: 10px;
+}
+#foot2 ul{
+    display: flex;
+    flex-direction: row;
+}
+.clanky{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.clanek{
+    background-color: white;
+    width: 25%;
+    margin: 30px;
+    border: 1px solid #d3d3d3;
+    min-width: 250px;
+}
+.clanek img{
+    height: 267.94px;
+    width: 100% !important;
+    object-fit: cover;
+}
+.clanek h2{
+    padding: 15px;
+    font-size: 30px;
+}
+.clanek a{
+    text-decoration: none;
+    color: black;
+}
+.clanek a:hover{
+    color: #2F4F4F;
+}
+.clanek p{
+    font-size: 16px;
+    padding: 10px;
+}
+.claneksec1{
+    height: calc(100%-1em);
+}
+.clanek article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.cistdale{
+    text-align: right;
+    padding: 10px; 
+    height: 1em;  
+}
+.druhclanku{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+.druhclanku h2{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 1em;
+}
+#textstranka{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+#textclanek{
+    border: 1px solid #d3d3d3;
+    margin: 30px;
+    width: 75%;
+    background-color: white;
+}
+#textnazev{
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+}
+#textclanek div{
+    padding: 20px;
+}
+.textobrazek{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.textobrazek img{
+    width: 50%;
+}
+.textobrazek figcaption{
+    font-size: 13px;
+    color: gray;
+}
+#textkomentare{
+    border: 1px solid #d3d3d3;
+    width: 75%;
+    background-color: white;
+}
+#textkomentare h2{
+    margin: 20px;
+}
+#komentareinput{
+    width: calc(100% - 40px);
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+#komentareinput textarea{
+    all:unset;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc(100% - 40px);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#submitbutton{
+    all:unset ;
+    background-color: #2F4F4F;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-radius: 1em;
+    padding: 10px;
+}
+#submitbutton:hover{
+    cursor: pointer;
+}
+.komentar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kominfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    width: 75px;
+}
+.kominfo img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.komtext p{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 20px;
+}
+#zdrojeodkazy{
+    display: flex;
+    flex-direction: column;
+}
+#zdrojeodkazy a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+#zdrojeodkazy a:hover{
+    color: #2F4F4F;
+    text-decoration: underline;
+}
+#tweet{
+    display: flex;
+    justify-content: center;
+}
+.soulsobr{
+    display: flex;
+    justify-content: center;
+}
+.soulsobr img{
+    margin-left: 20px;
+    width: 25%;
+    height: 200px;
+}
+.youtubevid{
+    display: flex;
+    justify-content: center;
+}
+.youtubevid iframe{
+    height: 450px;
+    width: 60%;
+}
+@media (max-width:800px) {
+    header{
+        flex-direction: column;
+    }
+    #foot2 ul{
+        flex-direction: column;
+    }
+}

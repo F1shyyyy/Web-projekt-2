@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan článek</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" type="image/x-icon" href="nvidiaicon.png">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="obal">
+    <header>
+            <nav><h1>
+                <a href="index.html">Tech blog</a>
+                </h1>
+            </nav>
+            <nav id="podstranky">
+            <a href="index.html#hardware">Hardware</a>
+            <a href="index.html#hry">Hry</a>
+            </nav>
+    </header>
+    <div id="main">
+        <div id="textstranka">
+            <div id="textclanek">
+                <article>
+                    <div id="textnazev">
+                        <h2>
+                            Absolutní brutus od Nvidie: fotky potvrdily extrémní 800W kartu Titan s PCB „na štorc“
+                        </h2>
+                    </div>
+                    <div class="textobrazek">
+                        <img src="titan.jpg" alt="">
+                        <figcaption>Grafika Nvidia Titan Xp Collector's Edition - Zdroj: Nvidia</figcaption>
+                    </div>
+                    <div>
+                        <p>
+                            <b>
+                                Grafická karta Titan generace Ada je reálná. Objevily se fotky potvrzující, že má čtyřslotový chladič a konstrukci s otočeným PCB, jaká ještě u grafik nikdy nebyla, ale mohla by dost usnadnit chlazení GPU s extrémní spotřebou.
+                            </b>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Ještě před vydáním grafik GeForce RTX 4000 kolovaly informace, dle nichž Nvidia chystá „monstrózní“ kartu, která by nesla plně aktivní GPU AD102 se spotřebou (nebo alespoň power limitem) až někde okolo 800 W. Ta bude highendovým modelem Titan generace Ada a nyní se objevily její fotky, které jasně ukazují čtyřslotový chladič a potvrzují až šílenou konstrukci používající možná hned dvě PCB, z nichž jedno je otočené kolmo ke kartě.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Fotky, které jsou hodně zajímavé, publikoval na Twitteru leaker s přezdívkou MEGAsizeGPU již známý z dřívějška. Jde o dva snímky, na nichž je záslepka chystané grafiky - nejprve samotná a pak přímo pohled na celou grafiku. Podle MEGAsizeGPU jde buď o vzorek grafiky GeForce RTX 4090 Ti, nebo modelu Titan.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Podle leakera Kopite7kimi, který obvykle má o plánech Nvidie nejlepší zprávy, je pravdou druhá z obou možností a díváme se na kartu Titan. Tedy „prémiový“ (což v černé řeči marketingu znamená vysoko cenově posazený) model, který by mohl být úplným vrcholem nabídky spotřebitelských a herních grafik Nvidie.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Samotná záslepka normálně nebývá zajímavá, ale zde je to naopak. Karta je zřetelně tlustá téměř celé čtyři sloty (bez pár milimetrů, které chybějí u poslední zabrané pozice, teoreticky by tedy mohlo být možné použít pátý slot na desce - nebo alespoň pro nějakou kartu s nízkým PCB). Přes prostřední dvě pozice pak má karta volný prostor, kterým bude chrlena ven část odpadního tepla podobně jako u karet GeForce RTX 4080 a 4090 „Founders Edition“.
+                        </p>
+                    </div>
+                    <div id="tweet">
+                        <blockquote class="twitter-tweet"><p lang="in" dir="ltr">4090Ti/Titan ada <a href="https://t.co/ceiD89KL0o">pic.twitter.com/ceiD89KL0o</a></p>&mdash; MEGAsizeGPU (@Zed__Wang) <a href="https://twitter.com/Zed__Wang/status/1619350027801100289?ref_src=twsrc%5Etfw">January 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div>
+                        <p>
+                            Největší bombónek (bomba?) jsou ale obrazové výstupy. Jak můžete vidět, čtyři porty leží vertikálně, místo aby byly v řadě v prostoru nejvyšší záslepky. Toto signalizuje, že karta má PCB uložené v poloze otočené o 90°. Respektive, minimálně část PCB, protože karta může mít dvě desky tištěných spojů, s druhou uloženou v tradiční poloze. Je možné, že na jedné z desek jsou zvlášť napájecí komponenty (VRM) a na druhé GPU a paměti.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Každopádně alespoň jedno z PCB je uloženo tak, že po zasunutí karty do slotu PCIe x16 leží paralelně s PCB základní desky. Je možné, že je karta přesně vyměřená tak, aby se její bok, či vlastně backplate pod oním otočeným PCB opíral o ostatní sloty PCIe na desce pod tím, do kterého je karta osazená. Toto by jistě velmi těžké potvoře dodávalo lepší stabilitu a omezilo tendenci konce karty ohýbat se směrem dolů.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Karta na fotce zřejmě přesně sedí k těmto fotkám samotného pasivu, které se už objevily dříve. Už na nich bylo vidět „coldplate“ umístěné na boku místo na spodní straně pasivu. Tehdy jsme moc nevěřili, že by karta mohla být opravdu postavená tímto stylem, ale skutečnost evidentně je taková.
+                        </p>
+                    </div>
+                    <div class="textobrazek">
+                        <img src="titanobrazky/titan_2.jpg" alt="">
+                        <figcaption>Části chladiče Nvidia Founders Edition pro až 900W GPU, zřejmě model Titan - Zdroj: Chiphell</figcaption>
+                    </div>
+                    <div>
+                        <p>
+                            Není jasné, zda toto PCB otočené „na štorc“ ponese GPU samotné. Nebylo by to ale od věci. Toto uložení by omezilo plochu, která bude pro komponenty na PCB dostupná. Ale na druhou stranu by tímto mohl být téměř celý pasiv, který je obvykle „zacpán“ PCB deskou grafiky, být nahoře otevřený a umožňovat, aby jím vzduch volně prostupoval výš nad kartu do prostoru CPU. Odtud ho pak vytáhnou ven systémové ventilátory na zadní straně skříně a v jejím stropu (s kartou o podobné spotřebě asi plná horní strana nebude úplně vhodná). Takovéto řešení grafické karty by bylo na chlazení o dost vhodnější než současné, kdy tradičně uložené PCB průchod chladičem znemožňuje, až na případná „okna“ na konci karty.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Model PG137?</h2>
+                    </div>
+                    <div>
+                        <p>
+                            Fotka záslepky ukrývá ještě jednu výživnou informaci. Je na ní totiž popisek zmiňující, že jde o „PG137“, což je kód, kterým Nvidia interně označuje různé návrhy karet. Kopite7kimi před časem o kartě s interním označením „PG137-SKU0“ uváděl některé údaje. Má podle něj čip AD104-450, v němž je aktivních 18 176 shaderů, což je 142 z celkových 144 bloků SM čipu AD102.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Tato karta měla mít 48 GB paměti GDDR6X, což by mohlo sedět s jejím pojmenováním „Titan“. A také měla mít maximální spotřebu karty až 800 W. Jde ale o údaje z července 2022, takže není vyloučeno, že se mezitím specifikace změnily. Je například možné, že se Nvidii podařilo zredukovat spotřebu. Oněch původně uváděných 800 W zřejmě také nemusela být hodnota, kterou Nvidia uvádí jako výchozí TDP, ale maximální Power Limit. Ten je například u GeForce RTX 4090 stanoven na 600 W, zatímco její TDP je 450 W. Pokud bychom spekulovali, že mezi hodnotami zůstane stejný poměr, pak by Titan mohl mít 600W TDP a maximální Power Limit by byl těch 800 W. Nedošlo-li ke změně ve specifikacích…
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div id="textkomentare">
+                <article>
+                    <div>
+                        <h2>Komentáře</h2>
+                    </div>
+                    <div id="komentareinput">
+                        <textarea name="inputkom" id="kominput" cols="10" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <button id="submitbutton" onclick="submit()">Odeslat</button>
+                    </div>
+                    <div id="komentare"> 
+                        <div class="komentar">
+                            <div class="kominfo">
+                                <img src="avatar.png" alt="">
+                                <p>Anonymous</p>
+                            </div>
+                            <div class="komtext">
+                                <p>
+                                    Kruci není to nějaký šprým? Tohle se už, podle mého názoru, vzpírá zdravému rozumu.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="komentar">
+                            <div class="kominfo">
+                                <img src="avatar.png" alt="">
+                                <p>Anonymous</p>
+                            </div>
+                            <div class="komtext">
+                                <p>
+                                    Je to parádny macek. Inak v takej Mini ITX doske to bude vyzerať dosť funny 😀
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <nav id="foot1">
+            <p>Copyright &copy; 2023 Ondřej Kábele. Všechna práva vyhrazena.
+                <img src="kappa.png" alt="">
+            </p>
+        </nav>
+        <nav id="foot2">
+            <div>
+                <ul>
+                    <li>
+                        <img src="discord.png" alt="">
+                        <a href="https://discord.gg/NRZaTtVXcN" target="_blank">Discord</a>
+                    </li>
+                    <li>
+                        <img src="instagram.png" alt="">
+                        <a href="https://www.instagram.com/ondrej_kabele/" target="_blank">Instagram</a>
+                    </li>
+                    <li>
+                        <img src="twitch.png" alt="">
+                        <a href="https://www.twitch.tv/xf1shyy_" target="_blank">Twitch</a>
+                    </li>
+                    <li>
+                        <img src="youtube.png" alt="">
+                        <a href="https://www.youtube.com/channel/UCJGRxH2blSZl3icuRD3tygg" target="_blank">Youtube</a>
+                    </li>
+                    <li>
+                        <img src="cssource.png" alt="">
+                        <a href="https://www.cnews.cz/800w-grafika-titan-generace-ada-je-realna-fotky-potvrzuji-ze-ma-pcb-na-storc/" target="_blank">Zdroje</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    </div>
+</body>
+</html>
