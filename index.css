@@ -268,6 +268,37 @@ ul li{
     header{
         flex-direction: column;
     }
+    .clanek{
+        width: 100%;
+    }
+    #textclanek{
+        width: 100%;
+    }
+    #textkomentare{
+        width: 100%;
+    }
+    .komentar{
+        flex-direction: column;
+    }
+    .kominfo{
+        margin-bottom: 10px;
+    }
+    .soulsobr img{
+        object-fit: cover;
+        margin: 15px;
+        width: 75%;
+    }
+    .textobrazek img{
+        object-fit: cover;
+        width: 75%;
+    }
+    .soulsobr{
+        flex-direction: column;
+        align-items: center;
+    }
+    #foot1 p{
+        text-align: center;
+    }
     #foot2 ul{
         flex-direction: column;
     }
