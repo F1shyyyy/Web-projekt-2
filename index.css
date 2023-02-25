@@ -169,11 +169,18 @@ ul li{
     font-size: 13px;
     color: gray;
 }
-#ryzen1tabulka1, td, tr, th{
+#ryzen1tabulka1{
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 75%;
+}
+#ryzen1tabulka1 td, tr, th{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
-    padding: 5px 25px 5px 5px;
+    padding: 5px 10px 5px 5px;
+    font-size: 15px;
 }
 #textkomentare{
     border: 1px solid #d3d3d3;
@@ -307,5 +314,12 @@ ul li{
     }
     #foot2 ul{
         flex-direction: column;
+    }
+    #ryzen1tabulka1{
+        width: 95vw;
+    }
+    #ryzen1tabulka1 th{
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 }
